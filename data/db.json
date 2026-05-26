@@ -1,0 +1,57 @@
+{
+  "business": {
+    "name": "SPM Sugars",
+    "whatsappNumber": "916374671116",
+    "gpayNumber": "6374671116",
+    "upiId": "subiksha1403@okhdfcbank",
+    "instagramUrl": "https://www.instagram.com/",
+    "locationText": "Erode, Tamil Nadu, India"
+  },
+  "products": [
+    {
+      "id": "jaggery-1kg",
+      "name": "Jaggery (Vellam)",
+      "size": "1 kg",
+      "price": 60,
+      "active": true
+    },
+    {
+      "id": "jaggery-5kg",
+      "name": "Jaggery (Vellam)",
+      "size": "5 kg",
+      "price": 300,
+      "active": true
+    },
+    {
+      "id": "juice-250ml",
+      "name": "Sugarcane Juice",
+      "size": "250 ml",
+      "price": 50,
+      "active": true
+    },
+    {
+      "id": "juice-1l",
+      "name": "Sugarcane Juice",
+      "size": "1 Litre",
+      "price": 130,
+      "active": true
+    },
+    {
+      "id": "powder-500g",
+      "name": "Sugarcane Powder",
+      "size": "500 g",
+      "price": 60,
+      "active": true
+    },
+    {
+      "id": "powder-1kg",
+      "name": "Sugarcane Powder",
+      "size": "1 kg",
+      "price": 300,
+      "active": true
+    }
+  ],
+  "customers": [],
+  "orders": [],
+  "payments": []
+}

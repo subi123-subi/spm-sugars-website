@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SPM Sugars | Farm Fresh Sugarcane Products</title>
+    <meta name="description" content="SPM Sugars supplies jaggery, sugarcane juice, sugarcane powder, and bulk sugarcane products directly from farm to home and business buyers.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="logo" href="#home" aria-label="SPM Sugars home">
+        <img class="site-logo" src="assets/spm-logo-clear.svg" alt="SPM Organic Products logo">
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#order">Order</a>
+        <a href="#payment">Payment</a>
+        <a href="#location">Location</a>
+        <a href="#why">Why Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="whatsapp top-order" href="https://wa.me/916374671116">Order on WhatsApp</a>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <img class="hero-bg" src="assets/real-sugarcane-harvest.jpg" alt="Sugarcane harvest in a farm field">
+        <div class="hero-copy">
+          <h1>SPM SUGARS</h1>
+          <h2>Farm Fresh Sugarcane Products</h2>
+          <p>Pure &bull; Natural &bull; Healthy</p>
+          <p class="small-copy">Directly from our farm to your home.<br>No chemicals. No additives. 100% Natural.</p>
+          <a class="whatsapp" href="https://wa.me/916374671116">Order on WhatsApp</a>
+        </div>
+        <div class="hero-product" id="gallery" aria-label="Jaggery and sugarcane products">
+          <img src="assets/real-jaggery-cubes.jpg" alt="Golden jaggery cubes arranged with rustic pottery">
+        </div>
+      </section>
+
+      <section class="benefits" id="why" aria-label="Why choose SPM Sugars">
+        <article>
+          <span class="benefit-icon">F</span>
+          <div><strong>Farm Fresh</strong><small>Directly from our farm</small></div>
+        </article>
+        <article>
+          <span class="benefit-icon">N</span>
+          <div><strong>No Chemicals</strong><small>100% Natural Products</small></div>
+        </article>
+        <article>
+          <span class="benefit-icon">B</span>
+          <div><strong>Bulk Supply</strong><small>For Shops & Distributors</small></div>
+        </article>
+        <article>
+          <span class="benefit-icon">H</span>
+          <div><strong>Hygienic Packing</strong><small>Safe & Clean Packaging</small></div>
+        </article>
+      </section>
+
+      <section class="section products" id="products">
+        <p class="eyebrow">Our Products</p>
+        <h2>Pure & Natural Goodness</h2>
+        <div class="product-grid">
+          <article class="card product-card">
+            <img src="assets/real-jaggery-cubes.jpg" alt="Golden jaggery cubes">
+            <h3>Jaggery (Vellam)</h3>
+            <dl>
+              <div><dt>1 kg</dt><dd>&#8377;60</dd></div>
+              <div><dt>5 kg</dt><dd>&#8377;300</dd></div>
+            </dl>
+            <p><strong>BULK Price</strong><br>Natural, chemical-free, high quality jaggery.</p>
+            <a class="whatsapp block" href="https://wa.me/916374671116">Order on WhatsApp</a>
+          </article>
+          <article class="card product-card">
+            <img src="assets/real-sugarcane-juice.jpg" alt="Fresh sugarcane juice">
+            <h3>Sugarcane Juice</h3>
+            <dl>
+              <div><dt>250 ml</dt><dd>&#8377;50</dd></div>
+              <div><dt>1 Litre</dt><dd>&#8377;130</dd></div>
+            </dl>
+            <p>Fresh, natural and hygienically packed.</p>
+            <a class="whatsapp block" href="https://wa.me/916374671116">Order on WhatsApp</a>
+          </article>
+          <article class="card product-card">
+            <img src="assets/real-sugarcane-powder.jpg" alt="Sugarcane powder in a glass jar">
+            <h3>Sugarcane Powder</h3>
+            <dl>
+              <div><dt>500 g</dt><dd>&#8377;60</dd></div>
+              <div><dt>1 kg</dt><dd>&#8377;300</dd></div>
+            </dl>
+            <p>Pure sugarcane powder. No preservatives.</p>
+            <a class="whatsapp block" href="https://wa.me/916374671116">Order on WhatsApp</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section order-builder" id="order" aria-labelledby="order-title">
+        <div class="order-heading">
+          <p class="eyebrow">Smart Order</p>
+          <h2 id="order-title">Build your order instantly</h2>
+          <p>Choose products and quantity. The website prepares a clean WhatsApp order message automatically.</p>
+        </div>
+
+        <div class="order-layout">
+          <form class="order-form" id="orderForm">
+            <label>
+              Customer name
+              <input id="customerNameInput" name="customerName" type="text" autocomplete="name" placeholder="Your name">
+            </label>
+
+            <label>
+              Mobile number
+              <input id="customerPhoneInput" name="customerPhone" type="tel" autocomplete="tel" placeholder="Your mobile number">
+            </label>
+
+            <label>
+              Product
+              <select id="productSelect" name="product">
+                <option value="jaggery-1kg">Jaggery (Vellam) - 1 kg - &#8377;60</option>
+                <option value="jaggery-5kg">Jaggery (Vellam) - 5 kg - &#8377;300</option>
+                <option value="juice-250ml">Sugarcane Juice - 250 ml - &#8377;50</option>
+                <option value="juice-1l">Sugarcane Juice - 1 Litre - &#8377;130</option>
+                <option value="powder-500g">Sugarcane Powder - 500 g - &#8377;60</option>
+                <option value="powder-1kg">Sugarcane Powder - 1 kg - &#8377;300</option>
+              </select>
+            </label>
+
+            <label>
+              Quantity
+              <input id="quantityInput" name="quantity" type="number" min="1" value="1">
+            </label>
+
+            <label>
+              Delivery area
+              <input id="areaInput" name="area" type="text" placeholder="Example: Erode, Coimbatore">
+            </label>
+
+            <button class="button add-item" type="button" id="addItem">Add to order</button>
+          </form>
+
+          <aside class="order-summary" aria-live="polite">
+            <div class="summary-head">
+              <h3>Order Summary</h3>
+              <button class="clear-order" type="button" id="clearOrder">Clear</button>
+            </div>
+            <ul id="orderItems" class="order-items">
+              <li class="empty-order">No items added yet.</li>
+            </ul>
+            <div class="summary-total">
+              <span>Estimated total</span>
+              <strong id="orderTotal">&#8377;0</strong>
+            </div>
+            <a class="whatsapp summary-action" id="orderWhatsapp" href="https://wa.me/916374671116">Send order on WhatsApp</a>
+            <p class="summary-note">Final delivery charges and availability can be confirmed on WhatsApp.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section payment-location" id="payment" aria-labelledby="payment-title">
+        <div class="payment-card">
+          <div>
+            <p class="eyebrow">Payment</p>
+            <h2 id="payment-title">Pay with UPI or GPay</h2>
+            <p>Scan the QR code or pay to the GPay number below. After payment, send the confirmation on WhatsApp so the order can be verified quickly.</p>
+            <div class="payment-details">
+              <p><strong>GPay Number</strong><span id="gpayNumber">6374671116</span></p>
+              <p><strong>UPI ID</strong><span id="upiId">subiksha1403@okhdfcbank</span></p>
+            </div>
+            <a class="whatsapp payment-confirm" id="paymentConfirm" href="https://wa.me/916374671116">I have completed payment</a>
+          </div>
+          <figure class="qr-card">
+            <img src="assets/payment-qr.png" alt="SPM Sugars payment QR code">
+            <figcaption>UPI ID: subiksha1403@okhdfcbank</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section social-location" id="location">
+        <div class="social-card">
+          <p class="eyebrow">Instagram</p>
+          <h2>Follow SPM Sugars</h2>
+          <p>Share fresh product updates, harvest videos, customer feedback, and new offers on Instagram.</p>
+          <a class="button instagram-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Open Instagram</a>
+        </div>
+        <div class="location-card">
+          <p class="eyebrow">Location</p>
+          <h2>Erode, Tamil Nadu</h2>
+          <p>Farm fresh sugarcane products supplied locally and for bulk orders. Use the map button for directions.</p>
+          <a class="button" href="https://www.google.com/maps/search/?api=1&query=Erode%2C%20Tamil%20Nadu%2C%20India" target="_blank" rel="noreferrer">View on Google Maps</a>
+        </div>
+      </section>
+
+      <section class="section farm-gallery" aria-label="Farm and product gallery">
+        <p class="eyebrow">Farm Gallery</p>
+        <h2>Fresh from field to family</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-large">
+            <img src="assets/real-sugarcane-harvest.jpg" alt="Sugarcane harvest transport in the field">
+            <figcaption>Direct farm sourcing</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/real-jaggery-cubes.jpg" alt="Fresh jaggery blocks close up">
+            <figcaption>Natural jaggery</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/real-sugarcane-juice.jpg" alt="Fresh sugarcane juice drink">
+            <figcaption>Juice-ready freshness</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/real-sugarcane-powder.jpg" alt="Sugarcane powder in a glass jar">
+            <figcaption>Natural cane powder</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="two-column" id="about">
+        <img class="about-image" src="assets/real-sugarcane-harvest.jpg" alt="Sugarcane harvest and farm supply">
+        <div class="panel about-panel">
+          <p class="eyebrow">About Us</p>
+          <p>We are farmers producing high-quality sugarcane products directly from our farm.</p>
+          <p>We ensure natural processing, hygiene, and best quality for bulk and retail supply.</p>
+          <a class="button" href="#products">Know More</a>
+        </div>
+      </section>
+
+      <section class="two-column compact">
+        <div class="panel bulk-panel">
+          <h3>Bulk Orders & Distribution</h3>
+          <p>Best price for shops, juice centers, wholesalers and distributors.</p>
+          <a class="whatsapp block narrow" href="https://wa.me/916374671116">Contact on WhatsApp</a>
+        </div>
+        <div class="panel testimonial-panel">
+          <h3>What Our Customers Say</h3>
+          <div class="quotes">
+            <blockquote>Very good quality jaggery.<br><span>Shop Owner, Erode</span></blockquote>
+            <blockquote>Fresh and natural products.<br><span>Customer, Coimbatore</span></blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" aria-label="Frequently asked questions">
+        <h2>FAQ</h2>
+        <div class="faq-grid">
+          <details open>
+            <summary>Is it organic?</summary>
+            <p>Yes, our products are 100% natural and chemical-free.</p>
+          </details>
+          <details>
+            <summary>Do you supply bulk?</summary>
+            <p>Yes, we supply bulk orders for shops and distributors.</p>
+          </details>
+          <details>
+            <summary>How to order?</summary>
+            <p>You can place your order directly on WhatsApp.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div>
+        <h3>Contact Us</h3>
+        <p>6374671116</p>
+        <p>Chat on WhatsApp</p>
+        <p>Erode, Tamil Nadu, India</p>
+      </div>
+      <div class="footer-brand">
+        <img class="footer-logo" src="assets/spm-logo-clear.svg" alt="SPM Organic Products logo">
+        <p>Farm Fresh Sugarcane Products</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#payment">Payment</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <a class="floating-chat" href="https://wa.me/916374671116" aria-label="Chat with us on WhatsApp">WA</a>
+      <p class="copyright">&copy; 2024 SPM Sugars. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

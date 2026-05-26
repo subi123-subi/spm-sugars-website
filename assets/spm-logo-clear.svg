@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">SPM Organic Products Logo</title>
+  <desc id="desc">SPM Organic Products logo with sugarcane, tractor, field, jaggery, and sugar powder elements.</desc>
+  <rect width="900" height="620" fill="#ffffff"/>
+  <path d="M228 306c92-142 260-145 352-14" fill="none" stroke="#f6a623" stroke-width="18" stroke-linecap="round"/>
+  <g fill="none" stroke="#2f8947" stroke-linecap="round">
+    <g stroke-width="15">
+      <path d="M570 320 604 118"/>
+      <path d="M608 320 628 106"/>
+      <path d="M650 322 664 125"/>
+      <path d="M690 325 704 142"/>
+    </g>
+    <g stroke-width="4" opacity=".9">
+      <path d="M592 170h33"/>
+      <path d="M586 218h34"/>
+      <path d="M580 265h35"/>
+      <path d="M622 164h34"/>
+      <path d="M618 214h36"/>
+      <path d="M614 266h37"/>
+      <path d="M658 178h33"/>
+      <path d="M654 226h35"/>
+      <path d="M650 276h36"/>
+      <path d="M696 188h32"/>
+      <path d="M692 236h33"/>
+      <path d="M688 284h34"/>
+    </g>
+    <g stroke-width="6">
+      <path d="M602 133c-76-44-143-30-203 45"/>
+      <path d="M615 127c-54-67-121-74-198-18"/>
+      <path d="M626 122c-22-80-78-108-160-84"/>
+      <path d="M642 125c38-74 94-90 168-51"/>
+      <path d="M655 140c69-48 128-40 178 24"/>
+      <path d="M669 154c84-8 132 30 146 113"/>
+      <path d="M607 188c-77-13-133 18-169 93"/>
+      <path d="M645 198c70-38 131-25 182 41"/>
+    </g>
+  </g>
+  <g fill="#2f8947">
+    <path d="M266 344c62-40 150-53 275-28 66 13 124 16 178 6v34H266z"/>
+    <path d="M260 349c42-26 79-33 112-21 44 16 89 19 135 10 54-11 109-4 166 20H260z" opacity=".8"/>
+  </g>
+  <g fill="#2f8947">
+    <rect x="316" y="276" width="95" height="51" rx="7"/>
+    <rect x="356" y="232" width="59" height="47" rx="5"/>
+    <rect x="295" y="254" width="50" height="31" rx="5"/>
+    <rect x="407" y="291" width="58" height="28" rx="5"/>
+    <path d="M366 232h56l-16-37h-44z"/>
+    <path d="M304 254l-18 28h18z"/>
+  </g>
+  <g>
+    <circle cx="326" cy="333" r="38" fill="#254a31"/>
+    <circle cx="326" cy="333" r="18" fill="#ffffff"/>
+    <circle cx="440" cy="332" r="48" fill="#254a31"/>
+    <circle cx="440" cy="332" r="23" fill="#ffffff"/>
+    <circle cx="326" cy="333" r="7" fill="#2f8947"/>
+    <circle cx="440" cy="332" r="8" fill="#2f8947"/>
+  </g>
+  <g fill="#7b4a2d">
+    <ellipse cx="176" cy="356" rx="34" ry="22"/>
+    <ellipse cx="212" cy="354" rx="28" ry="20"/>
+    <ellipse cx="239" cy="361" rx="26" ry="17"/>
+  </g>
+  <g fill="#d9b46a">
+    <path d="M705 355c46-34 94-33 140 0z"/>
+    <path d="M768 287c41 30 57 59 50 88h-77c-11-28-2-58 27-88z"/>
+    <path d="M785 294c-8 31-9 58-4 80" fill="none" stroke="#8c6239" stroke-width="5"/>
+  </g>
+  <text x="450" y="471" text-anchor="middle" fill="#2f8947" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="800" letter-spacing="12">SPM</text>
+  <text x="450" y="548" text-anchor="middle" fill="#2f8947" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="10">ORGANIC PRODUCTS</text>
+</svg>
